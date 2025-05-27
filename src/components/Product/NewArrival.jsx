@@ -141,7 +141,7 @@ const NewArrival = () => {
             <button onClick={() => scroll("left")} className='p-2 rounded border bg-white text-black'>
                 <FiChevronLeft className='text-2xl'/>
             </button>
-             <button className='p-2 rounded border bg-white text-black'>
+             <button onClick={() => scroll("right")} className='p-2 rounded border bg-white text-black'>
                 <FiChevronRight className='text-2xl'/>
             </button>
         </div>
