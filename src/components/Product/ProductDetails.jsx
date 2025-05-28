@@ -63,7 +63,7 @@ const ProductDetails = () => {
                                     filter: "brightness(0.5)"
                                 }}>
                                 </button>
-                            ))}
+                            ))} 
                         </div>
                     </div>
                     <div className='mb-4'>
